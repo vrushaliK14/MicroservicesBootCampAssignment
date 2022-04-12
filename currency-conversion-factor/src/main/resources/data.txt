@@ -1,0 +1,2 @@
+insert into conversion_factor_detail
+values(4,3,3.4);

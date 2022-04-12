@@ -1,0 +1,31 @@
+Eureka server URL:
+http://localhost:8761/
+
+
+currency-conversion-factor service:
+
+http://localhost:8081/conversionFactor/add?countryCode=1&conversionFactor=1.2
+http://localhost:8081/conversionFactor/update?countryCode=1&conversionFactor=1.2
+http://localhost:8081/conversionFactor/get?countryCode=1
+
+convert-currency service:
+
+http://localhost:8082/convertCurrency?countryCode=1&amount=2
+
+
+http://localhost:8082/convertCurrency?countryCode=1&amount=2
+
+
+API GateWay Service:
+
+###below is working#####
+http://localhost:8080/CURRENCY-CONVERSION-FACTOR/conversionFactor/add?countryCode=2&conversionFactor=12.3
+http://localhost:8080/CONVERT-CURRENCY/convertCurrency?countryCode=1&amount=2
+
+http://localhost:8080/currency-conversion-factor/conversionFactor/add?countryCode=2&conversionFactor=12.3
+http://localhost:8080/convert-currency/convertCurrency?countryCode=1&amount=2
+
+
+
+http://localhost:8080/currency-conversion-factor/add?countryCode=2&conversionFactor=12.3
+http://localhost:8080/convert-currency?countryCode=1&amount=2

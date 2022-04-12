@@ -1,0 +1,4 @@
+FROM openjdk:8-jdk-alpine
+ARG JAR_FILE=target/convert-currency-0.0.1-SNAPSHOT.jar
+COPY ${JAR_FILE} convert-currency-0.0.1-SNAPSHOT.jar
+ENTRYPOINT ["java","-jar","/convert-currency-0.0.1-SNAPSHOT.jar"]

@@ -1,0 +1,7 @@
+INDEX VERSION 1.4+C:\MyWork\Projects\AllEclipseWS\IBMTrainingAssessment\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+1050042363.index
+104377107.index
+1483214798.index
+2231487265.index
+560633857.index
+2888771425.index
